@@ -64,8 +64,8 @@ while True:
     print("Deu velha! empate")
     break
   #troca de jogador
-  if jogador_atual == "X":
-    jogador_atual = "O"
+  if jogador_atual == "0":
+    jogador_atual = "x"
   else:
     jogador_atual = "X"
 
